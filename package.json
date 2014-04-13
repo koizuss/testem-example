@@ -1,0 +1,24 @@
+{
+  "name": "testem-example",
+  "version": "0.0.0",
+  "description": "testem-example",
+  "directories": {
+    "test": "tests"
+  },
+  "devDependencies": {
+    "mocha": "~1.18.2",
+    "coffee-script": "~1.7.1",
+    "chai": "~1.9.1",
+    "testem": "~0.6.14"
+  },
+  "scripts": {
+    "start": "testem",
+    "test": "testem ci"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@bitbucket.org:koizuss/testem-example.git"
+  },
+  "author": "koizuss",
+  "license": "ISC"
+}

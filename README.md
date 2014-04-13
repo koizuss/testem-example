@@ -4,18 +4,17 @@ https://github.com/airportyh/testem
 
 ## Setup
 
-	npm install -g testem coffee-script
-	npm install mocha chai
+	npm install
 
 ## Usage
 
-### for development
+### start development
 
-	testem
+	npm start
 
-### for ci
+### execute test (for ci)
 
-	testem ci
+	npm test
 
 ### Todos
 
