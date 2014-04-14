@@ -11,6 +11,5 @@
     "scripts/*.js",
     "tests/*.js"
   ],
-  "before_tests": "coffee -c tests/*.coffee",
-  "on_exit": "rm tests/*.js"
+  "before_tests": "coffee -c tests/*.coffee"
 }
